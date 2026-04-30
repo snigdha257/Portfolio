@@ -11,8 +11,7 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Build
-build/
+
 dist/
 
 # IDE
