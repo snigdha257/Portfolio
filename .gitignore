@@ -25,5 +25,6 @@ dist/
 # Testing
 coverage/
 
-# Production
+# Build
+build/
 .cache/
