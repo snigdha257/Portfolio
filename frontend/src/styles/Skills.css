@@ -1,0 +1,137 @@
+/* Skills.css */
+.skills {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f0f4ff 100%);
+  padding: 5rem 2rem;
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.skill-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(90deg, #1a73e8, #34a853) 1;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(26, 115, 232, 0.2);
+}
+
+.skill-category {
+  color: #1a73e8;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-tag {
+  background: linear-gradient(135deg, rgba(26, 115, 232, 0.1), rgba(52, 168, 83, 0.1));
+  border: 1px solid #1a73e8;
+  color: #1a73e8;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  background: linear-gradient(135deg, #1a73e8, #34a853);
+  color: white;
+  border-color: transparent;
+  transform: scale(1.05);
+}
+
+.proficiency-section {
+  margin-top: 3rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.proficiency-section h3 {
+  color: #1a1a2e;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.proficiency-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.proficiency-item {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.proficiency-item label {
+  display: block;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #1a73e8, #34a853);
+  border-radius: 10px;
+  animation: slideInLeft 1s ease-out;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .proficiency-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 568px) {
+  .skills {
+    padding: 2rem 1rem;
+  }
+
+  .skill-card {
+    padding: 1.5rem;
+  }
+
+  .proficiency-section {
+    padding: 1.5rem;
+  }
+}

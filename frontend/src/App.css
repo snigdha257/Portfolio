@@ -1,0 +1,17 @@
+/* App.css */
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+section {
+  padding: 5rem 2rem;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 1rem;
+  }
+}
