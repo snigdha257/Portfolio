@@ -3,8 +3,7 @@
 A modern, attractive, and responsive portfolio website built with React showcasing projects, skills, internships, and certifications.
 
 ## 🚀 Live Demo
-
-[Your live portfolio URL here]
+https://snigdha257.github.io/Portfolio/
 
 ## 📋 Features
 
