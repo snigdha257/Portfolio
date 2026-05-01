@@ -67,7 +67,7 @@ function Contact() {
               Get a comprehensive overview of my experience, skills, and achievements
             </p>
             <div className="resume-actions">
-              <a href="/SNIGDHA_RESUME_CONCISE (1).pdf" target="_blank" className="resume-btn primary" rel="noopener noreferrer">
+              <a href="./SNIGDHA_RESUME_CONCISE (1).pdf" target="_blank" className="resume-btn primary" rel="noopener noreferrer">
                 <i className="fas fa-download"></i>
                 Download PDF
               </a>

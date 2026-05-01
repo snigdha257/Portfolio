@@ -41,19 +41,19 @@ function About() {
             <div className="detail-item">
               <h3>📚 Education</h3>
               <ul>
-                <li><strong>B.Tech CSE</strong> - Geethanjali College (8.6 CGPA) [cite: 17, 18]</li>
-                <li><strong>12th CBSE</strong> - Indus Universal School (84%) [cite: 19, 20]</li>
-                <li><strong>10th CBSE</strong> - Indus Universal School (92%) [cite: 21, 22]</li>
+                <li><strong>B.Tech CSE</strong> - Geethanjali College (8.6 CGPA)</li>
+                <li><strong>12th CBSE</strong> - Indus Universal School (84%)</li>
+                <li><strong>10th CBSE</strong> - Indus Universal School (92%)</li>
               </ul>
             </div>
 
             <div className="detail-item">
               <h3>🏆 Key Achievements</h3>
               <ul>
-                <li><strong>SIH 2024:</strong> Developed mental health software solutions [cite: 24, 26]</li>
-                <li><strong>AI Hackathon:</strong> Top 5 Finalist for GyanGuru AI platform [cite: 30, 31]</li>
-                <li><strong>Leadership:</strong> Secretary of IEEE WIE Affinity Group [cite: 28]</li>
-                <li><strong>Academic:</strong> Multiple NPTEL Gold Elite Certifications [cite: 64, 65]</li>
+                <li><strong>SIH 2024:</strong> Developed mental health software solutions</li>
+                <li><strong>AI Hackathon:</strong> Top 5 Finalist for GyanGuru AI platform</li>
+                <li><strong>Leadership:</strong> Secretary of IEEE WIE Affinity Group</li>
+                <li><strong>Academic:</strong> Multiple NPTEL Gold Elite Certifications</li>
               </ul>
             </div>
           </div>
