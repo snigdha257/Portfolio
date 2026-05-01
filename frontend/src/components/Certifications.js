@@ -12,16 +12,16 @@ function Certifications() {
       date: '2024',
       description: 'Comprehensive Java programming certification covering OOP, design patterns, and advanced concepts.',
       icon: '☕',
-      link: '#'
+      link: 'https://drive.google.com/file/d/1cYexe199WUddYzDkY9N9S6VZXxO6urm-/view?newwindow=1&embedded=true'
     },
     {
       title: 'Foundations of R Software',
-      issuer: 'NPTEL',
+      issuer: 'NPTEL',  
       level: 'Gold Elite Certification',
       date: '2024',
       description: 'In-depth R programming course covering statistical analysis and data manipulation.',
       icon: '📊',
-      link: '#'
+      link: 'https://drive.google.com/file/d/1HOJNgLV2qlktnyJE4v3UC8FVJOHb49-o/view?newwindow=1&embedded=true'
     },
     {
       title: 'Joy of Computing Using Python',
@@ -30,7 +30,7 @@ function Certifications() {
       date: '2024',
       description: 'Python fundamentals and computational thinking for problem-solving.',
       icon: '🐍',
-      link: '#'
+      link: 'https://drive.google.com/file/d/1Ua_xlLndtX1XlQ08k_OZgGg6gXeuR7tB/view?newwindow=1&embedded=true'
     },
     {
       title: 'Database Management Systems',
@@ -39,7 +39,7 @@ function Certifications() {
       date: '2024',
       description: 'Advanced DBMS concepts including normalization, transactions, and query optimization.',
       icon: '🗄️',
-      link: '#'
+      link: 'https://drive.google.com/file/d/1OnPG73bEj7WjY8YMJAWGUGOw0-TPORkK/view?newwindow=1&embedded=true'
     },
     {
       title: 'MongoDB Node.js Associate Developer',
@@ -48,7 +48,7 @@ function Certifications() {
       date: '2024',
       description: 'MongoDB and Node.js integration for building scalable NoSQL applications.',
       icon: '🍃',
-      link: '#'
+      link: 'https://drive.google.com/file/d/18KRVRRS7LSnKD1HR49klImp_PvaE7E3Y/view'
     },
     {
       title: 'Database Management with SQL',
@@ -57,7 +57,7 @@ function Certifications() {
       date: '2024',
       description: 'SQL expertise including complex queries, indexing, and database administration.',
       icon: '🔐',
-      link: '#'
+      link: 'https://drive.google.com/file/d/1EvPwcLHz1tpugKEUHnyUWCLF27ZnFQs7/view?newwindow=1&embedded=true'
     }
   ];
 
@@ -86,7 +86,7 @@ function Certifications() {
                 {expandedCert === index && (
                   <div className="cert-expanded">
                     <p className="cert-description">{cert.description}</p>
-                    <a href={cert.link} className="verify-btn">
+                    <a href={cert.link} className="verify-btn" target="_blank" rel="noopener noreferrer">
                       Verify Credential →
                     </a>
                   </div>

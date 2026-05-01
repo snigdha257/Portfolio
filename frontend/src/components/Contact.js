@@ -30,6 +30,7 @@ function Contact() {
                 <div>
                   <h4>Email</h4>
                   <p>23r11a6201@gcet.edu.in</p>
+                  <p>asrssnigdha@gmail.com</p>
                 </div>
               </div>
 

@@ -26,6 +26,7 @@ function Footer() {
           <div className="footer-contact">
             <p><i className="fas fa-phone"></i> 9010078444</p>
             <p><i className="fas fa-envelope"></i> 23r11a6201@gcet.edu.in</p>
+            <p><i className="fas fa-envelope"></i> asrssnigdha@gmail.com</p>
             <p><i className="fas fa-map-marker-alt"></i> Hyderabad, India</p>
           </div>
         </div>
@@ -40,6 +41,9 @@ function Footer() {
               <i className="fab fa-github"></i>
             </a>
             <a href="mailto:23r11a6201@gcet.edu.in">
+              <i className="fas fa-envelope"></i>
+            </a>
+            <a href="mailto:asrssnigdha@gmail.com">
               <i className="fas fa-envelope"></i>
             </a>
           </div>

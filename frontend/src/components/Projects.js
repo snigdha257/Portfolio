@@ -6,28 +6,12 @@ function Projects() {
 
   const projects = [
     {
-      title: 'Notes Manager',
-      category: 'MERN',
-      description: 'Full-stack notes application with real-time synchronization and cloud storage',
-      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
-      image: '📝',
-      link: '#'
-    },
-    {
       title: 'Vi-SlideS',
       category: 'AI',
       description: 'Real-time classroom interaction platform with AI-assisted responses for enhanced learning',
       technologies: ['React.js', 'Node.js', 'Express.js', 'APIs', 'AI'],
       image: '🎓',
-      link: '#'
-    },
-    {
-      title: 'GyanGuru',
-      category: 'AI',
-      description: 'AI-powered platform for personalized ML learning with tracking and interactive features',
-      technologies: ['React.js', 'Node.js', 'Express.js', 'AI', 'Machine Learning'],
-      image: '🤖',
-      link: '#'
+      link: 'https://github.com/snigdha257/Vi-SlideS-basic'
     },
     {
       title: 'PolicyMate',
@@ -35,7 +19,7 @@ function Projects() {
       description: 'AI-based system that intelligently matches students with eligible government schemes',
       technologies: ['React.js', 'Node.js', 'Express.js', 'APIs', 'AI'],
       image: '📋',
-      link: '#'
+      link: 'https://github.com/snigdha257/PolicyMate'
     },
     {
       title: 'Landing Page & Portfolio Website',
@@ -43,16 +27,25 @@ function Projects() {
       description: 'Responsive and modern landing pages with stunning UI/UX designs',
       technologies: ['React.js', 'CSS', 'JavaScript', 'Responsive Design'],
       image: '🌐',
-      link: '#'
+      link: 'https://github.com/snigdha257/Portfolio'
     },
     {
-      title: 'Blockchain Finance Platform',
+      title: 'Notes Manager',
       category: 'MERN',
-      description: 'Blockchain-based finance platform with smart contracts and API integration',
-      technologies: ['React.js', 'Node.js', 'Express.js', 'Blockchain', 'APIs'],
-      image: '⛓️',
-      link: '#'
-    }
+      description: 'Full-stack notes application with real-time synchronization and cloud storage',
+      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+      image: '📝',
+      link: 'https://github.com/snigdha257/wtapp'
+    },
+    {
+      title: 'GyanGuru',
+      category: 'AI',
+      description: 'AI-powered platform for personalized ML learning with tracking and interactive features',
+      technologies: ['React.js', 'Node.js', 'Express.js', 'AI', 'Machine Learning'],
+      image: '🤖',
+      link: 'https://github.com/Anoogna/LearnSpere__IIC'
+    },
+   
   ];
 
   const categories = ['All', 'MERN', 'Frontend'];
@@ -85,7 +78,7 @@ function Projects() {
               <div className="project-image-wrapper">
                 <div className="project-image">{project.image}</div>
                 <div className="project-overlay">
-                  <a href={project.link} className="project-link">View Project →</a>
+                  <a href={project.link} className="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
               
